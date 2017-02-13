@@ -22,6 +22,10 @@ body{
 	background-attachment: fixed;
 }
 
+.visibility{
+	visibility: hidden;
+}
+
 #temp{
 	font-size: 150px;
     font-family: sans-serif;
@@ -35,7 +39,7 @@ body{
 }
 
 #label-1, #label-2{
-	visibility:hidden;
+	/*visibility:hidden;*/
 	color: white;
 	font-size: 15px;
     font-family: sans-serif;	

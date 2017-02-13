@@ -8,7 +8,7 @@ $(document).ready(function(){
 		var city_name = $("#cityname").val();
 		var days = $("#days").val();
 		getValue(city_name);
-		$("#label-1,#label-2").css("visibility", "visible");
+		$("#label-1,#label-2,#city,#country,#region,#temp,#unit,#update,#forecast").css("visibility", "visible");
 		// $("#label-2").css("visibility", "visible");
 
 	});
@@ -26,7 +26,7 @@ $(document).ready(function(){
 				$("#region").text(value.location.region);
 				$("#update").text(value.current.last_updated);
 				$("#temp").text(value.current.temp_f);
-				// $("#forecast").text(value.forecast.forecastday.date);
+				// $("#forecast").text(value.forecast.forecastday.day.maxtemp_c);
 			}
 		});
 	}
