@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 				$("#city").text(data.location.name);
 				$("#country").text(data.location.country);
-				$("#temp").text(data.current.temp_f);
+				$("#temp").text(data.current.temp_c);
 				$("#sunny").text(data.current.condition.text);
 
 				// image=data.current.condition.icon;
