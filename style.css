@@ -22,14 +22,18 @@ body{
 	background-attachment: fixed;
 }
 
+
 .visibility{
 	visibility: hidden;
 }
 
+
+	
+
 #temp{
 	font-size: 150px;
     font-family: sans-serif;
-    color: white;
+    color: gold;
 }
 
 #unit{
@@ -38,11 +42,13 @@ body{
     font-family: sans-serif;
 }
 
-#label-1, #label-2{
-	/*visibility:hidden;*/
-	color: white;
-	font-size: 15px;
-    font-family: sans-serif;	
+#sunny{
+	color: yellow;
+	font-size: 50px;
+}
+
+#icon{
+	width: 50px;
 }
 
 #country{
@@ -50,16 +56,12 @@ body{
 	color: white;
 }
 
-#region{
-	margin: 0;
-	color: white;
-}
 
-#update{
-	margin: 0;
-	color: white;
-}
+#icon{
 
+	width: 64px;
+	height: auto;
+}
 .title_section{
 	margin: 0;
 	width: 50%;
